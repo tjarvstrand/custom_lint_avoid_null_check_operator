@@ -1,6 +1,6 @@
 name: custom_lint_avoid_null_check_operator
 description: A custom lint that warns about null check operator usage.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/tjarvstrand/custom_lint_avoid_null_check_operator
 
 environment:
@@ -8,9 +8,9 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  analyzer: ^7.0.0
+  analyzer: ^8.0.0
   analyzer_plugin: ^0.13.0
-  custom_lint_builder: ^0.7.5
+  custom_lint_builder: ^0.8.0
 
 dev_dependencies:
   flutter_lints: ^5.0.0
